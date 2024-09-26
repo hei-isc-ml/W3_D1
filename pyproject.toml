@@ -3,7 +3,7 @@ name = "w3-d1"
 version = "0.1.0"
 description = ""
 authors = ["Francesco Carrino <francesco.carrino@hes-so.ch>"]
-readme = ""
+readme = "readme.md"
 package-mode = false
 
 [tool.poetry.dependencies]
