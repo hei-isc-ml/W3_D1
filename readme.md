@@ -21,7 +21,7 @@
         - Explain the goal of your code.
         - Comment on the results.
         - Provide direct answers to the questions listed below (Section [Implementing SVM-Based Classification](#implementing-svm-based-classification-provide-these-answers-in-the-jupyter-notebook)).
-    - Filled peer-review evaluation grid
+    - Filled *peer-review evaluation grid* (see below).
 
 ## Tasks – Classification using SVM
 
@@ -38,7 +38,7 @@
    - Implement classification and evaluate the results.
    - We provide a `.lock` and `.toml` file if you want to import the suggested packes with [poetry](https://python-poetry.org/docs/). Depending from your solution, you may need to [add](https://python-poetry.org/docs/cli/#add) additional packages.
 
-3. **Peer review**:
+3. **Peer review** (consider *at least* 1 hour for this activity):
     - A peer review template is available in the repository. Use it to review a colleague’s project.
     - Note: You are **not** grading your colleague. The purpose of this activity is to identify what makes an ML project well-executed and easy to understand, and to provide constructive feedback for mutual benefit.
 
@@ -47,9 +47,10 @@
 ### Understanding SVM (provide these answers in the slides, in addition to the points mentioned in the task **Understanding SVM**)
 - How does SVM select the best hyperplane of separation?
 - SVM (without considering the kernel) has only one hyperparameter. What is its name, and what does it represent?
-- Compare SVM vs. Random Forest: Discuss advantages and drawbacks in terms of interpretability, performance, data preparation, multiclass prediction, etc.
+- Compare SVM vs. Random Forest: discuss advantages and drawbacks in terms of interpretability, performance, data preparation, multiclass prediction, etc.
 
 ### Implementing SVM-Based Classification (provide these answers in the jupyter notebook)
 - What types of features are present in the dataset? (i.e., how do we usually deal with pictures in Machine Learning?)
 - What would you change if you had color pictures?
-- What is feature engineering? Do you had to "engineer" your features & why?
+- What is feature engineering? Did you have to "engineer" your features & why?
+- (As always) Comment your results. Are you happy with that? Why? How could you try to improve them?
